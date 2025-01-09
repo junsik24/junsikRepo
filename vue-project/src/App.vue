@@ -70,6 +70,7 @@ export default {
   <!-- <button type="botton" @click="clickHandler($event, 'Hello')">클릭(이벤트,값)</button> -->
   <input type="text" @keyup.enter = "onKeyupHandler" />
   <h1>{{  number }}</h1>
+  <h3>{{ className }}</h3>
   <button type="button" @click="increasement">증가버튼</button>
   <button @click="name= '영희'">이름 변경</button>
   <button @click="age= 100">나이 변경</button>
